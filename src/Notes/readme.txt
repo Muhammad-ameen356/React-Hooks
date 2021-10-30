@@ -70,12 +70,16 @@ const ref = useRef(initialValue);
 
 <------------------------ useMemo -------------------------->
 
+using useMemo we can control unwanted rerendring
+
 useMemo is use for better perfomance
 
 //// Difference between useEffect and useMemo
 
 useEffect pure component ki re rendiring ko rokta he
-useMemo specific part ki re rendiring ko rokta he
+useMemo component k specific part ki re rendiring ko rokta he
+
+useEffect k andar hum html Likh kar usay print ni karwasakte.
 
 <----------------------- useCallback ----------------------->
 

@@ -17,9 +17,9 @@ const App = () => {
         {/* <Useeffect/> */}
         {/* <Context/> */}
         {/* <Usereducer/> */}
-        {/* <Usemamo/> */}
+        <Usemamo/>
         {/* <ReactMemo/> */}
-        <Useref/>
+        {/* <Useref/> */}
       {/* </Fullname.Provider> */}
       </div>
 

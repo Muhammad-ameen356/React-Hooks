@@ -8,15 +8,15 @@ const Usemamo = () => {
     //     console.log("Effect run");
     // })
 
-    // const usememocheck = useMemo(() => {
-    //     // console.log("memo run");
-    //     return <h2>{seccount}</h2>
-    // },[seccount])
+    const usememocheck = useMemo(() => {
+        // console.log("memo run");
+        return <h2>{seccount}</h2>
+    },[seccount])
 
 
     return (
         <div>
-            {/* {usememocheck} */}
+            {usememocheck}
             <h1>{count}</h1>
 
             <button onClick={() => setCount((preVal) => preVal + 1)}>Increase</button>
