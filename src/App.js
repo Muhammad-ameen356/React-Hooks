@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React, { createContext } from 'react';
+import Useeffect from './Components/Useeffect';
 import './App.css';
+import Context from './Components/Contextapi+useContext/Context';
+import Usereducer from './Components/Usereducer/Usereducer';
+import Usemamo from './Components/Usememo/Usemamo';
 
-function App() {
+const Fullname = createContext();
+
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      {/* <Fullname.Provider value={"ameen zahid hussain"}> */}
+        {/* <Useeffect/> */}
+        {/* <Context/> */}
+        {/* <Usereducer/> */}
+        <Usemamo/>
+      {/* </Fullname.Provider> */}
+      </div>
+
   );
 }
 
 export default App;
+export {Fullname}
