@@ -4,6 +4,7 @@ import './App.css';
 import Context from './Components/Contextapi+useContext/Context';
 import Usereducer from './Components/Usereducer/Usereducer';
 import Usemamo from './Components/Usememo/Usemamo';
+import ReactMemo from './Components/Reactmemo/ReactMemo';
 
 const Fullname = createContext();
 
@@ -15,7 +16,8 @@ const App = () => {
         {/* <Useeffect/> */}
         {/* <Context/> */}
         {/* <Usereducer/> */}
-        <Usemamo/>
+        {/* <Usemamo/> */}
+        <ReactMemo/>
       {/* </Fullname.Provider> */}
       </div>
 

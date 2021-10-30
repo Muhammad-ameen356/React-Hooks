@@ -71,4 +71,4 @@ useMemo return value
 
 <---------- React.Memo ------------->
 
-
+Memo is only use in above 16.6 version
