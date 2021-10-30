@@ -1,10 +1,10 @@
 import React from 'react'
 
 const Secondpage = ({name}) => {
-    console.log("ameen");
+    console.log("Second Page");
     return (
         <div>
-            <h1> {name}</h1>
+            <h1>Second Page {name}</h1>
         </div>
     )
 }
