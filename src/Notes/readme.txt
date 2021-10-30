@@ -1,4 +1,4 @@
-<---------- useState ------------->
+<----------------------- useState ------------->
 
 const [count, setCount] = useState();
 
@@ -6,7 +6,7 @@ const [count, setCount] = useState();
 - setCount - a function to change the value, in this case, it's called setCount.
 
 
-<---------- useEffect ------------->
+<----------------------- useEffect ------------->
     // Important Description about useEffect
     https://reactjs.org/docs/hooks-reference.html#useeffect
 
@@ -37,7 +37,7 @@ The function passed to useEffect will run after the render is committed to the s
     }, [call here])
 
 
-<---------- Context API ------------->
+<------------------------ Context API ---------------------->
 
 1)  Context API is use for pass props globally
 
@@ -47,13 +47,13 @@ The function passed to useEffect will run after the render is committed to the s
 
 4)  Context API k andar ye problem he k is k andar consumer wala part bhut labmba hota he
 
-<---------- useContext ------------->
+<------------------------ useContext ------------------------>
 
 1) Context API k andar jo consumer wala system he usko hata k useContext aya he
 
 2) Pure project me kisi bhi jaga props pass karne k k bjae hum useContext ki madad sa apne all over the project me value get karsakte hen.
 
-<---------- useReducer ------------->
+<------------------------ useReducer ------------------------>
 
 useState is nothing only way to manage state in react 
 useReducer is also use to manage state in react
@@ -62,13 +62,13 @@ useReducer is not very usefull for manage small state
 It is very usefull for managing complex state
 See complete example of useReducer in given location (./Components/Usereducer)
 
-<---------- useRef ------------->
+<-------------------------- useRef -------------------------->
 useRef is just like document.getElementbyid()
 
 const ref = useRef(initialValue);
 
 
-<---------- useMemo ------------->
+<------------------------ useMemo -------------------------->
 
 useMemo is use for better perfomance
 
@@ -77,7 +77,7 @@ useMemo is use for better perfomance
 useEffect pure component ki re rendiring ko rokta he
 useMemo specific part ki re rendiring ko rokta he
 
-<---------- useCallback ------------->
+<----------------------- useCallback ----------------------->
 
 useCallback and useMemo are very similar to each other
 useCallback return a function
@@ -92,7 +92,7 @@ useMemo return value
         return <h2>{seccount}</h2>
     },[seccount])
 
-<---------- React.Memo ------------->
+<------------------------ React.Memo ------------------------>
 
 Memo is only use in above 16.6 version
 
