@@ -106,7 +106,7 @@ wrap the component name Like this "export Default React.memo(Components name)"
 1)  if we call more than one component in our parent component and passing props form parent to child component so 
     if we do any changes in any part like changing any value on button click or changing state so it call or rerender all over the component we call in parent component
 
-2)  so this is very bad experiance for our application. React.memo is use for enhancing speed and stop Uneless rendring of component
+2)  so this is very bad experiance for our application. React.memo is use for enhancing speed and stop Useless rendring of component
 
 3)  React.memo provide an access to render a component only when any thing change in our React.memo(component)
 

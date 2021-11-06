@@ -6,16 +6,18 @@ const Usemamo = () => {
 
     // useEffect(() => {
     //     console.log("Effect run");
+    //     const ameen = <h2>My name</h2>
     // })
 
     const usememocheck = useMemo(() => {
         // console.log("memo run");
         return <h2>{seccount}</h2>
-    },[seccount])
+    }, [seccount])
 
 
     return (
         <div>
+            {/* {ameen} */}
             {usememocheck}
             <h1>{count}</h1>
 
